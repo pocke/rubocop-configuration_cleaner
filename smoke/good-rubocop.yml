@@ -1,0 +1,2 @@
+Lint/Void: # Not same, should be left
+  Enabled: false
