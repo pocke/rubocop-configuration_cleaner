@@ -1,8 +1,8 @@
 # RuboCop::ConfigurationCleaner
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/rubocop/configuration_cleaner`. To experiment with that code, run `bin/console` for an interactive prompt.
+`.rubocop.yml` cleaner.
 
-TODO: Delete this and the text above, and describe your gem
+It cleans cop configuration if it is the same as the default.
 
 ## Installation
 
@@ -22,7 +22,16 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```bash
+# It displays cleaned `.rubocop.yml`.
+$ rubocop-configuration_cleaner path/to/.rubocop.yml
+
+# Write cleaned .rubocop.yml to the given path.
+$ rubocop-configuration_cleaner path/to/.rubocop.yml --write
+
+# Preview the diff
+$ rubocop-configuration_cleaner path/to/.rubocop.yml --diff
+```
 
 ## Development
 
