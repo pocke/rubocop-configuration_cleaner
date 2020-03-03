@@ -1,4 +1,5 @@
 require "rubocop/configuration_cleaner/version"
+require "rubocop/configuration_cleaner/cli"
 
 module RuboCop
   module ConfigurationCleaner

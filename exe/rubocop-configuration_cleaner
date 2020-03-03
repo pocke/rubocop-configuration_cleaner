@@ -1,3 +1,5 @@
 #!ruby
 
+require 'rubocop/configuration_cleaner'
+
 RuboCop::ConfigurationCleaner::CLI.new(ARGV).run
