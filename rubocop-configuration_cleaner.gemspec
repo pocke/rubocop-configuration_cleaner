@@ -2,7 +2,7 @@ require_relative 'lib/rubocop/configuration_cleaner/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "rubocop-configuration_cleaner"
-  spec.version       = Rubocop::ConfigurationCleaner::VERSION
+  spec.version       = RuboCop::ConfigurationCleaner::VERSION
   spec.authors       = ["Masataka Pocke Kuwabara"]
   spec.email         = ["kuwabara@pocke.me"]
 

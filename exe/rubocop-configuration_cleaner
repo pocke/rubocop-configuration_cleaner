@@ -1,0 +1,3 @@
+#!ruby
+
+RuboCop::ConfigurationCleaner::CLI.new(ARGV).run
