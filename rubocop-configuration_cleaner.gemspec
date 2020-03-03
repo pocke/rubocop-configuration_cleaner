@@ -9,6 +9,7 @@ Gem::Specification.new do |spec|
   spec.summary       = %q{.rubocop.yml cleaner}
   spec.description   = %q{.rubocop.yml cleaner}
   spec.homepage      = "https://github.com/pocke/rubocop-configuration_cleaner"
+  spec.license       = 'MIT'
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
 
   spec.metadata["homepage_uri"] = spec.homepage
