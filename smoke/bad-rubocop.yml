@@ -1,0 +1,5 @@
+Style/Strip: # Same as the default config, should be removed
+  Enabled: true
+
+Lint/Void: # Not same, should be left
+  Enabled: false

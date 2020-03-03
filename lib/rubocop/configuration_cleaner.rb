@@ -1,3 +1,8 @@
+require 'yaml'
+require 'pathname'
+require 'optparse'
+require 'tempfile'
+
 require "rubocop/configuration_cleaner/version"
 require "rubocop/configuration_cleaner/cli"
 
